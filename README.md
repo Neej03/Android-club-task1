@@ -1,151 +1,147 @@
-# Android Club – VIT Bhopal University
-### Premium Official Website & Digital Identity Portal
+<div align="center">
 
-[![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Framer Motion](https://img.shields.io/badge/Framer_Motion-11.11-FF0055?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
-[![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=black)](https://developer.android.com/)
+  <img src="public/logo.png" alt="Android Club Logo" width="100" />
 
-A modern, responsive, and interactive digital portal for **Android Club, VIT Bhopal University**. Crafted with a **Futuristic Dark × Android Green** visual system, showcasing the club's technical domains, student-developed open-source applications, hackathons, team structure, and membership intake.
+  # Android Club • VIT Bhopal
+  **If it's Android, it's Us.**
 
----
+  The official web portal for the Android Club chapter at VIT Bhopal University.  
+  Designed with a cyber-minimal dark aesthetic, interactive 3D WebGL experiences, and real-time student tooling.
 
-## ✨ Features & Architecture
+  [Live Demo](http://localhost:3000) • [Official Website](https://androidclub.tech/) • [WhatsApp Community](https://chat.whatsapp.com/LNvsdaT2ucu6Xwbm5tYiIK) • [GitHub](https://github.com/androidclubvitbhopal)
 
-### 1. Design System & Theme
-- **Color Palette:**
-  - Primary Background: `#050505`
-  - Secondary Background: `#0B0D0B`
-  - Card Background: `#111411`
-  - Primary Accent: `#3DDC84` (Android Green)
-  - Secondary Accent: `#8AFFB7`
-  - Primary Text: `#FFFFFF`
-  - Secondary Text: `#A1A1AA`
-  - Glow Borders: `rgba(61, 220, 132, 0.15)`
-- **Typography:** Plus Jakarta Sans (body), Space Grotesk (display), JetBrains Mono (code & metrics).
-- **Glassmorphism & Micro-Interactions:** Subtle backdrop blurs, glowing card hover states, and animated status pulses.
-
-### 2. Website Sections
-- **Section 01 – Sticky Navigation Bar:** Smooth scroll to sections, active section highlight, responsive mobile hamburger menu, and neon "Join Us" CTA.
-- **Section 02 – Hero Experience:** Bold typography (*"BUILD. CONNECT. INNOVATE."*), interactive 3D Android Bugdroid with mouse perspective tracking and blinking eye matrix, floating tech badges, quick metrics, and scroll indicator.
-- **Section 03 – About Us ("More Than Just a Club"):** Split-screen layout featuring club mission, vision, and differentiators alongside an Android Studio Ladybug code window simulation with live Gradle build telemetry.
-- **Section 04 – What We Do ("Explore. Experiment. Create."):** 8 technical and creative domains (Android Dev, App Dev, Kotlin & Java, UI/UX Design, AI & Edge ML, Workshops, Open Source, and Collaborative Projects) with expandable deep dives.
-- **Section 05 – Project Showcase ("Built By Our Community"):** Filterable gallery (Native Android, Cross-Platform, AI & ML, Campus Tools) with live interactive project detail modal, GitHub repository links, and live demos.
-- **Section 06 – Events & Workshops ("Learn. Build. Experience."):** Interactive switcher for **Upcoming Flagship Events** (e.g. *Android Fusion 3.0 National Hackathon*, *Compose Camp 2026*) and **Past Hall of Fame** (e.g. *BugOff 2.0 Debugging Challenge*, *DroidCon Study Jam*, *App-O-Holics Sprint*).
-- **Section 07 – Why Join Us? ("Your Ideas Deserve a Community"):** 6 feature cards highlighting hands-on learning, real-world projects, workshops, networking, hackathons, and leadership.
-- **Section 08 – Our Team ("The People Behind the Innovation"):** Categorized team showcase (Faculty Coordinator, Club Leads, Technical Team, Design Team, PR & Outreach) with customizable profile cards.
-- **Section 09 – Contact & Community ("Let's Build Something Together"):** Official email (`androidclub@vitbhopal.ac.in`), campus location details, official social links (GitHub, LinkedIn, Instagram), interactive contact form with instant validation, and confetti celebration.
-- **Section 10 – Footer:** Clean branding, quick links, VIT Bhopal University recognition, back-to-top button, and copyright.
-- **Interactive Global Modals:**
-  - **Join Community Modal:** Student application form with registration intake, domain preference, and celebratory confetti.
-  - **Project Detail Modal:** Deep-dive architectural breakdown, metrics, and repository access.
+</div>
 
 ---
 
-## 🛠️ Project Structure
+## Overview
 
-```
-Android-club/
-├── index.html                  # HTML entry point with meta tags & fonts
-├── package.json                # Dependencies and build scripts
-├── postcss.config.js           # PostCSS configuration
-├── tailwind.config.js          # Custom theme, colors, and keyframes
-├── vite.config.js              # Vite configuration
-├── README.md                   # Project documentation
-├── public/                     # Static assets
-└── src/
-    ├── App.jsx                 # Main application layout
-    ├── main.jsx                # React root bootstrap
-    ├── index.css               # Global styles, Tailwind directives & scrollbar
-    ├── components/
-    │   ├── Navbar.jsx          # Sticky navigation & mobile menu
-    │   ├── Hero.jsx            # Hero section with metrics & CTAs
-    │   ├── AndroidVisual3D.jsx # Interactive 3D Android Bugdroid with mouse tilt
-    │   ├── About.jsx           # Mission, Vision & simulated Android Studio IDE
-    │   ├── Activities.jsx      # 8 technical domain cards with expandable details
-    │   ├── Projects.jsx        # Project gallery with category filter
-    │   ├── ProjectModal.jsx    # Project deep-dive modal
-    │   ├── Events.jsx          # Upcoming & past events timeline
-    │   ├── Benefits.jsx        # 6 membership benefits
-    │   ├── Team.jsx            # Team leadership & domain leads
-    │   ├── Contact.jsx         # Contact form, campus info & socials
-    │   ├── Footer.jsx          # Footer & back-to-top button
-    │   └── JoinModal.jsx       # Student membership registration modal
-    └── data/
-        ├── activities.js       # Domain definitions & tech stacks
-        ├── projects.js         # Community projects & repositories
-        ├── events.js           # Hackathons, study jams & bootcamps
-        ├── benefits.js         # Membership perks & advantages
-        └── team.js             # Team roster & social links
-```
+Founded in 2017 by Abhay Nigam, Android Club is a student-run technical community at VIT Bhopal University focused on mobile systems, modern Kotlin architectures, on-device Edge AI, and open-source software. 
+
+This repository houses the redesigned chapter portal built with React, Vite, Tailwind CSS, and Framer Motion. It showcases the chapter's flagship initiatives—including AcWoC (Android Club Winter of Code), the Android Fusion national hackathon series, and campus-deployed applications.
 
 ---
 
-## 🚀 Getting Started
+## Highlights
+
+- **Bugdroid Awakening Sequence:** Procedural introductory boot animation featuring responsive SVG antenna kinematics, live terminal boot telemetry, and smooth portal exit.
+- **Interactive 3D Mascot:** Embedded Spline WebGL 3D Android mascot with real-time cursor perspective tracking, ambient light halos, and fluid physics.
+- **Interactive Mobile Device Lab:** A Pixel OS device simulation inside the browser featuring 6 interactive applications:
+  - *Campus Navigator:* Multi-building routing and schedule tracker.
+  - *AcWoC Issue Tracker:* Live PR tracker with top contributor leaderboards.
+  - *PulseSync Tickets:* Verified event pass with interactive QR scanner.
+  - *DroidVault:* Biometric keystore simulator for campus credentials.
+  - *Kotlin Playground:* In-browser Kotlin 2.0 code compiler simulator.
+  - *Community Chat:* Direct gateway to the active WhatsApp developer network.
+- **Digital Event Pass System:** Ticketing card architecture styled after authentic developer conference passes, complete with tear-off notch geometry, date ribbons, and live countdowns.
+- **AcWoC 2026 Flagship Showcase:** A 4-week open-source mentorship program hub with stats on 450+ PRs, project repositories, and contribution tiers.
+- **Cyber Dark Visual System:** Bespoke circuit and matrix dot-grid background patterns, ambient volumetric glow orbs, and glassmorphic surface elevation.
+
+---
+
+## Tech Stack
+
+| Layer | Technologies |
+| :--- | :--- |
+| **Frontend Framework** | React 18 |
+| **Build Tool & Bundler** | Vite 5 |
+| **Styling & Design System** | Tailwind CSS 3.4 |
+| **Motion & Gestures** | Framer Motion 11 |
+| **3D & WebGL Canvas** | `@splinetool/react-spline` |
+| **Icons & Typography** | Lucide React, Space Grotesk, Plus Jakarta Sans, JetBrains Mono |
+| **Micro-Interactions** | Canvas Confetti |
+
+---
+
+## Getting Started
 
 ### Prerequisites
-- **Node.js** (v18.0 or higher recommended)
-- **npm** or **pnpm** / **yarn**
+- Node.js (v18.x or higher)
+- npm, pnpm, or yarn
 
-### 1. Installation
-Clone the repository and install dependencies:
+### Quick Setup
 
 ```bash
-cd Android-club
+# Clone the repository
+git clone https://github.com/Neej03/Android-club-task1.git
+
+# Navigate into project directory
+cd Android-club-task1
+
+# Install dependencies
 npm install
-```
 
-### 2. Development Server
-Start the local Vite development server:
-
-```bash
+# Start local development server
 npm run dev
 ```
 
-Open your browser at `http://localhost:3000` (or the port specified in terminal).
+Open [http://localhost:3000](http://localhost:3000) to view the portal.
 
-### 3. Production Build
-Generate an optimized production build:
+### Production Build
 
 ```bash
+# Build optimized production bundle
 npm run build
-```
 
-The compiled assets will be output to the `dist/` directory.
-
-### 4. Preview Production Build
-Preview the generated production build locally:
-
-```bash
+# Preview production build locally
 npm run preview
 ```
 
 ---
 
-## 🌐 Deployment Guidelines
+## Project Structure
 
-### Deploying to Vercel
-1. Push your repository to GitHub.
-2. Sign in to [Vercel](https://vercel.com/) and click **"New Project"**.
-3. Import your `Android-club` repository.
-4. Framework Preset will automatically detect **Vite**.
-5. Build Command: `npm run build`
-6. Output Directory: `dist`
-7. Click **Deploy**.
-
-### Deploying to Netlify
-1. Connect the GitHub repository on [Netlify](https://www.netlify.com/).
-2. Set Build Command: `npm run build`
-3. Set Publish Directory: `dist`
-4. Click **Deploy site**.
+```
+Android-club/
+├── public/
+│   ├── AboutPage_Assets/       # Faculty portraits & signatures
+│   ├── Events_Page/            # Rotating portal graphics
+│   ├── Homepage_Assets/        # Student contributor avatars
+│   ├── RecruitmentsPage_Assets/# 3D Bugdroid wallpapers
+│   ├── TeamPage_Assets/        # Domain badges & icons
+│   ├── Android.splinecode      # 3D Spline scene asset
+│   └── logo.png                # High-res 3D Android mascot
+├── src/
+│   ├── assets/                 # App assets & brand vectors
+│   ├── components/
+│   │   ├── About.jsx           # Chapter heritage, pillars & device lab
+│   │   ├── AcwocHighlight.jsx  # Winter of Code flagship program
+│   │   ├── AndroidIntroAnimation.jsx # Initial bootloader animation
+│   │   ├── AndroidVisual3D.jsx # 3D Android mascot with mouse tilt
+│   │   ├── Benefits.jsx        # Engineering perks & student outcomes
+│   │   ├── Contact.jsx         # Mission control dispatch & socials
+│   │   ├── Events.jsx          # Pass cards, countdown & gallery
+│   │   ├── Footer.jsx          # Chapter recognition & quick links
+│   │   ├── Hero.jsx            # Main headline, Spline scene & metrics
+│   │   ├── InteractivePhoneExperience.jsx # Mobile simulator
+│   │   ├── Navbar.jsx          # Navigation header & WhatsApp CTA
+│   │   ├── PartnersMarquee.jsx # Ecosystem partner ticker
+│   │   ├── ScrollNavigation.jsx# Vertical section indicator
+│   │   └── TechKnowledgeDrop.jsx # FAQ & architecture insights
+│   ├── data/                   # Structured content & event datasets
+│   ├── App.jsx                 # Master page layout & intro state
+│   ├── index.css               # Cyber grid patterns & design tokens
+│   └── main.jsx                # React DOM entry point
+├── index.html
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
+```
 
 ---
 
-## 📄 License & Attribution
+## Community & Socials
 
-- Built for **Android Club, VIT Bhopal University**.
-- Reference website: [https://androidclub.tech/](https://androidclub.tech/)
-- Official Email: `androidclub@vitbhopal.ac.in`
-- Open-source under the [MIT License](LICENSE).
+- **WhatsApp Community:** [chat.whatsapp.com](https://chat.whatsapp.com/LNvsdaT2ucu6Xwbm5tYiIK)
+- **GitHub:** [@androidclubvitbhopal](https://github.com/androidclubvitbhopal)
+- **LinkedIn:** [Android Club VIT Bhopal](https://www.linkedin.com/company/android-club-vit-bhopal/)
+- **Instagram:** [@androidclub.vitb](https://www.instagram.com/androidclub.vitb/)
+- **YouTube:** [@androidclub-vitb](https://www.youtube.com/@androidclub-vitb-wi4qe)
+- **Official Inquiries:** `androidclub@vitbhopal.ac.in`
 
+---
+
+## License
+
+This project is maintained by members of **Android Club, VIT Bhopal University**.  
+Licensed under the [MIT License](LICENSE).
