@@ -8,7 +8,7 @@
   The official web portal for the Android Club chapter at VIT Bhopal University.  
   Designed with a cyber-minimal dark aesthetic, interactive 3D WebGL experiences, and real-time student tooling.
 
-  [Live Demo](http://localhost:3000) • [Official Website](https://androidclub.tech/) • [WhatsApp Community](https://chat.whatsapp.com/LNvsdaT2ucu6Xwbm5tYiIK) • [GitHub](https://github.com/androidclubvitbhopal)
+  [Live Website](https://android-club-two.vercel.app/) • [Chapter Portal](https://androidclub.tech/) • [WhatsApp Community](https://chat.whatsapp.com/LNvsdaT2ucu6Xwbm5tYiIK) • [GitHub](https://github.com/androidclubvitbhopal)
 
 </div>
 
@@ -132,6 +132,8 @@ Android-club/
 
 ## Community & Socials
 
+- **Live Deployment:** [Android Club | VIT Bhopal](https://android-club-two.vercel.app/)
+- **Official Chapter Portal:** [androidclub.tech](https://androidclub.tech/)
 - **WhatsApp Community:** [chat.whatsapp.com](https://chat.whatsapp.com/LNvsdaT2ucu6Xwbm5tYiIK)
 - **GitHub:** [@androidclubvitbhopal](https://github.com/androidclubvitbhopal)
 - **LinkedIn:** [Android Club VIT Bhopal](https://www.linkedin.com/company/android-club-vit-bhopal/)
