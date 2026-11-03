@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Android Club | VIT Bhopal</title>
+    <meta
+      name="description"
+      content="Official website of Android Club, VIT Bhopal. Explore events, blogs, team, and projects that shape the future of Android development."
+    />
+    <meta
+      name="keywords"
+      content="Android Club, VIT Bhopal, Android development, events, blogs, team, coding, student community"
+    />
+    <meta
+      name="google-site-verification"
+      content="VQPR2UzsFt4C9UiuqBPdI0ln_Dx4mUPA0LupAIsQjEY"
+    />
+    <meta property="og:title" content="Android Club | VIT Bhopal" />
+    <meta
+      property="og:description"
+      content="Join the Android Club at VIT Bhopal. Participate in events, read blogs, and engage with a vibrant developer community."
+    />
+    <meta
+      property="og:image"
+      content="https://androidclubvitbpl.web.app/Logo.png"
+    />
+    <meta property="og:url" content="https://androidclubvitbpl.web.app" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Android Club | VIT Bhopal" />
+    <meta
+      name="twitter:description"
+      content="Official website of Android Club, VIT Bhopal. Explore events, blogs, and engage with developers."
+    />
+    <meta
+      name="twitter:image"
+      content="https://androidclubvitbpl.web.app/Logo.png"
+    />
+    <link
+      rel="icon"
+      href="https://androidclubvitbpl.web.app/Logo.png"
+      type="image/png"
+    />
+    <link
+      rel="preload"
+      href="https://androidclubvitbpl.web.app/Logo.png"
+      as="image"
+    />
+    <link rel="preload" href="data:text/jsx;base64,aW1wb3J0IFJlYWN0RE9NIGZyb20gJ3JlYWN0LWRvbS9jbGllbnQnOwppbXBvcnQgQXBwIGZyb20gJy4vQXBwLmpzeCc7CmltcG9ydCAnLi9BcHAuY3NzJzsKaW1wb3J0IHsgQnJvd3NlclJvdXRlciBhcyBSb3V0ZXIgfSBmcm9tICdyZWFjdC1yb3V0ZXItZG9tJzsKaW1wb3J0IEZpcmVzdG9yZVByb3ZpZGVyIGZyb20gJy4uL3V0aWxzL2NvbnRleHQvZmlyZXN0b3JlQ29udGV4dCc7CgpSZWFjdERPTS5jcmVhdGVSb290KGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdyb290JykpLnJlbmRlcigKICA8Um91dGVyIGZ1dHVyZT17eyB2N19zdGFydFRyYW5zaXRpb246IHRydWUsIHY3X3JlbGF0aXZlU3BsYXRQYXRoOiB0cnVlIH19PgogICAgPEZpcmVzdG9yZVByb3ZpZGVyPgogICAgICA8QXBwIC8+CiAgICA8L0ZpcmVzdG9yZVByb3ZpZGVyPgogIDwvUm91dGVyPgopOwo=" as="script" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Android Club",
+        "url": "https://androidclubvitbpl.web.app",
+        "logo": "https://androidclubvitbpl.web.app/Logo.png",
+        "description": "Android Club at VIT Bhopal promotes Android development through events, blogs, and a collaborative community.",
+        "sameAs": [
+          "https://www.linkedin.com/company/android-club-vit-bhopal/",
+          "https://x.com/AndroidClubVitb"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "androidclub@vitbhopal.ac.in",
+          "contactType": "Customer Service"
+        }
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-CE5RZeiH.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-Cyuzqnbw.js">
+    <link rel="modulepreload" crossorigin href="/assets/spline-BrzIPJOy.js">
+    <link rel="modulepreload" crossorigin href="/assets/framer-motion-D5N4mWMi.js">
+    <link rel="modulepreload" crossorigin href="/assets/firebase-BZ2hInz_.js">
+    <link rel="modulepreload" crossorigin href="/assets/react-BFiFG7uG.js">
+    <link rel="stylesheet" crossorigin href="/assets/react-QLmc7JW0.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-B6J0VF39.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <noscript>
+      This site requires JavaScript to function properly. Please enable
+      JavaScript in your browser settings.
+    </noscript>
+  </body>
+</html>
